@@ -62,7 +62,7 @@ h1 span {
 
 .hero-image {
   width: 30rem;
-  border: 5px solid turquoise;
+  border: 5px solid #9333ea;
   border-radius: 50% 0 50% 0;
 }
 
@@ -82,14 +82,26 @@ h1 span {
 .card {
   width: 10rem;
   height: 15rem;
-  border: 1px solid #ddd;
-  padding: 20px;
+  padding: 2rem;
   text-align: center;
   background-color: #9333ea;
-  border: 2px solid turquoise;
+  box-shadow: 10px 10px turquoise;
+  text-decoration: none;
 }
 
 .card-image {
   width: 10rem;
   border: 2px solid turquoise;
+}
+
+.card-heading {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #d6d3d1;
+}
+
+.card-text {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #d6d3d1;
 }
